@@ -4,7 +4,7 @@ function MazeNavigater(startX, startY, endX, endY) {
   this.endX = endX,
   this.endY = endY,
   // this.maze = createMaze()
-  this.maze = example
+  this.maze = example // test maze
 }
 
 MazeNavigater.prototype.createMaze = function () {
@@ -22,7 +22,7 @@ MazeNavigater.prototype.createMaze = function () {
   return grid;
 };
 
-var example =
+var example = // test maze
 [ [ 0, 0, 0, 0, 1, 1, 0, 1, 0 ],
   [ 0, 0, 0, 0, 1, 1, 1, 0, 1 ],
   [ 1, 1, 0, 0, 1, 0, 0, 0, 1 ],
